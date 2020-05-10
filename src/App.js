@@ -6,7 +6,8 @@ function App() {
   return (
     <div className="App">
       <main className="App-main">
-        <h2>Get the lucky numbers!</h2>
+        <h1>Lotto 6/49</h1>
+        <h3>Lucky numbers generator</h3>
         <LuckyNumbers />
       </main>
     </div>
