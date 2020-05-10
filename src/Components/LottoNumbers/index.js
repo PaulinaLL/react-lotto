@@ -8,6 +8,7 @@ class LuckyNumbers extends React.Component {
     this.state = {
       numbers: [],
       luckyNumber: null,
+      reset: false,
     };
 
     this.handleClick = this.handleClick.bind(this);
@@ -18,6 +19,7 @@ class LuckyNumbers extends React.Component {
     this.setState({
       numbers: getRandomNumbers(6),
       luckyNumber: getRandomNum(1, 11),
+      reset: true,
     });
   }
 
@@ -25,6 +27,7 @@ class LuckyNumbers extends React.Component {
     this.setState({
       numbers: [],
       luckyNumber: null,
+      reset: false,
     });
   }
 
@@ -42,8 +45,10 @@ class LuckyNumbers extends React.Component {
           <div>{this.state.luckyNumber}</div>
         </div>
         <div className="buttons">
-          <button onClick={this.handleClick}>Show me lucky numbers:</button>
-          <button onClick={this.resetClick}>Reset</button>
+          <button onClick={this.handleClick}>Show me lucky numbers</button>
+          {this.state.reset ? (
+            <button onClick={this.resetClick}>Reset</button>
+          ) : null}
         </div>
       </>
     );
