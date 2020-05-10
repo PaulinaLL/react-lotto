@@ -1,4 +1,17 @@
+Try your luck in a lottery and get 6 form 49 lucky numbers from this page!
+It is also coming with an extra blue lucky number from 1 - 10.
+
+Click the green button to get the numbers:
+
+![lotto1](src/Lotto1s.jpeg)
+
+You can keep clicking on the green button to get new numbers or click the reset button to come back to the main view.
+
+![lotto2](src/Lotto2s.jpeg)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+To run this project on your maschine remember to get the necessary dependencies with `npm install` in the project directory and use the available scripts below:
 
 ## Available Scripts
 
