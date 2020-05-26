@@ -1,7 +1,8 @@
 ## Lotto
 Live preview: https://react-lotto-paulina.netlify.app/
 
-Try your luck in a lottery and get 6 form 49 lucky numbers from this page!
+Try your luck in a lottery and get 6 form 49 lucky numbers from this page! 
+Those numbers are unique.
 It is also coming with an extra blue lucky number from 1 - 10.
 
 Click the green button to get the numbers:
